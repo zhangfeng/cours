@@ -1,3 +1,7 @@
+layout: page
+title: première ébauche
+---
+
 # Apprentissage et astuces
 
 L'apprentissage est l'art d'acquérir de nouvelles connaissances et de
