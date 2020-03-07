@@ -1,6 +1,6 @@
 ---
-layout: page
 title: première ébauche
+layout: default
 ---
 
 # Apprentissage et astuces
