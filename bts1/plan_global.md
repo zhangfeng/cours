@@ -2,10 +2,11 @@
 title: Plan Général du cours d'informatique pour BTS SIO option SISR
 layout: bts1
 ---
+
 Plan prévisionnel
 =================
 
-Accès distant
+[Accès distant]({% link bts1/acces_distant.md %})
 -------------
 
 ### Authentification par clé
