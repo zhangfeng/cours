@@ -25,7 +25,7 @@ Système
 
 ### Gestion de pare-feu et notions de sécurité
 
-### Experssions rationnelles
+### Expressions rationnelles
 
 Infrastructure mail
 -------------------
@@ -50,7 +50,7 @@ Bases de données
 
 #### MySQL / MariaDB
 
-### Non Lorationnelles (NoSQL)
+### Non Relationnelles (NoSQL)
 
 #### MongoDB
 
