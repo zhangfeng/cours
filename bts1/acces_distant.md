@@ -35,16 +35,13 @@ connexion est lancé et on se trouve dans le répertoire personnel du compte
 Quelques exercices de pratique:
 
 1. Lister le contenu du `home directory`
-
 2. Lister le contenu du dossier `/bin` et `/usr/bin`
-
 3. Un dossier temporaire:
    1. Créer dans le `home directory` un dossier nommé `tmp`
    2. Copier le contenu de `/usr/bin` dans le dossier que l'on vient de
       créer
    3. Vérifier que le dossier contient bien ce qu'on a copié
    4. Effacer le dossier `tmp`
-
 4. Faire une synthèse de la structure de l'arborescence du système (lire la
    page man `hier(7)`)
 
