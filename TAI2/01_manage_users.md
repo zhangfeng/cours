@@ -1,6 +1,7 @@
 ---
 title: Script `manage_users`
 layout: folder
+permalink: TAI2/manage_users
 ---
 
 Ce projet a pour but de créer un outil qui permette de gérer les comptes

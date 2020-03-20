@@ -1,6 +1,7 @@
 ---
 title: Le système de mail
 layout: folder
+permalink: TAI2/mailsystem
 ---
 
 Le système de mail est composé de plusieurs services:
