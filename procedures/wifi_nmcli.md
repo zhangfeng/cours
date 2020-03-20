@@ -13,6 +13,6 @@ layout: folder
 2. Connexion au réseau choisi (je l'appel "`Wifi Prive`" ici) avec son mot
    de passe (ici `PhrasePasse`):
    ```bash
-   # nmcli d w connect '`Wifi Prive`' password '`PhrasePasse`'
+   # nmcli d w connect 'Wifi Prive' password 'PhrasePasse'
    ```
 3. Vérifiez avec n'importe quelle commande qui accède au réseau
