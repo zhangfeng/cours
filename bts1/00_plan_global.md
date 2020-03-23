@@ -1,12 +1,13 @@
 ---
 title: Plan Général du cours d'informatique pour BTS SIO option SISR
-layout: bts1
+layout: folder
+permalink: bts1/plan_global.html
 ---
 
 Plan prévisionnel
 =================
 
-[Accès distant]({% link bts1/acces_distant.md %})
+[Accès distant]({% link bts1/01_acces_distant.md %})
 -------------
 
 ### Authentification par clé
@@ -15,7 +16,7 @@ Plan prévisionnel
 
 ### Exécution distante
 
-[Système]({% link bts1/system.md %})
+[Système]({% link bts1/02_system.md %})
 -------
 
 ### Structure de l'arborescence des fichiers Linux

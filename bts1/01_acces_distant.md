@@ -1,6 +1,7 @@
 ---
 title: Accès distant
-layout: bts1
+layout: folder
+permalink: bts1/acces_distant
 ---
 
 ## Concepts et généralité

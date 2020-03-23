@@ -1,6 +1,7 @@
 ---
-title: System Unix / Linux
-layout: bts1
+title: Système Unix / Linux
+layout: folder
+permalink: bts1/system
 ---
 
 Proposition de définitions:
