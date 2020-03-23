@@ -28,7 +28,7 @@ Linux est disponible sous forme de distributions qui, elles-mêmes, sont à
 l'origine de plusieurs variantes.
 
 Une distribution Linux est donc un assemblage de plusieurs logiciels qui
-s'appuient dur le système linux pour proposer un ensemble d'outils
+s'appuie sur le système Linux pour proposer un ensemble d'outils
 cohérent.
 
 Chaque distribution peut proposer des variations dans l'organisation des
