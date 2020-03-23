@@ -24,7 +24,7 @@ Notamment:
 - les commandes de la norme [*POSIX*](https://fr.wikipedia.org/wiki/POSIX)
   doivent être présentes
 
-Linux est disponible sous forme de distributions qui, elles-mêmes sont à
+Linux est disponible sous forme de distributions qui, elles-mêmes, sont à
 l'origine de plusieurs variantes.
 
 Une distribution Linux est donc un assemblage de plusieurs logiciels qui
