@@ -146,7 +146,7 @@ Mises en pratique:
    4. Vérifiez que vous puissiez vous connecter au compte `user2`
 3. Jeu en groupe
    1. Pour cet exercice, nous considérons que deux comptes, `user1` et
-      `user2`, existent déjà dans le système. Si tetr n'est pas le cas,
+      `user2`, existent déjà dans le système. Si tel n'est pas le cas,
       créez-les.
    2. Vérification des groupes dans lesquels se trouve user1:
       ~~~bash
