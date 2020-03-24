@@ -48,6 +48,7 @@ Exercice pratique:
 ## Gestion des utilisateurs
 
 Définitions:
+
 - compte utilisateur: ensemble d'informations qui délimite un usage
   particulier du système; pour simplifier , nous parlerons aussi
   d'utilisateur
