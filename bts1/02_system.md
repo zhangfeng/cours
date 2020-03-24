@@ -51,7 +51,7 @@ Définitions:
 - compte utilisateur: ensemble d'informations qui délimite un usage
   particulier du système; pour simplifier , nous parlerons aussi
   d'utilisateur
-- groupe d'utilisateuris: ensemble d'informations permettant de regrouper des
+- groupe d'utilisateurs: ensemble d'informations permettant de regrouper des
   comptes utilisateur; nous parlerons ici de *groupe*
 - login: un nom permettant d'identifier un compte utilisateur
 - UID: numéro permettant d'identifier un compte utilisateur
