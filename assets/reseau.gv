@@ -1,0 +1,16 @@
+graph {
+    label = "Réseau domestique";
+    box [ label = "Box Internet", shape = diamond ];
+    boxtv [ label = "Boîtier TV", shape = square ];
+    tv [ label = "TV", shape = box ];
+    ordinateur [ shape = box ];
+    imprimante [ shape = box ];
+    mobile [ shape = rectangle ];
+    tel [ label = "Tblbphone fixe", shape = rectangle ];
+    ordinateur -- box [ label = "WIFI" ];
+    mobile -- box [ label = "WIFI" ];
+    tel -- box [ label = "FIL" ];
+    boxtv -- box [ label = "FIL" ];
+    tv -- boxtv [ label = "FIL" ];
+    imprimante -- ordinateur [ label = "USB" ];
+}

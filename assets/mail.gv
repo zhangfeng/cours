@@ -1,0 +1,13 @@
+digraph mail {
+    label = "Système de mail";
+    node [ shape = box ];
+    expediteur [ shape = circle ];
+    envoi [ label = "Serveur d'envoi" ];
+    mx [ label = "Serveur de répartition" ];
+    stock [ label = "Hébergeur de boîtes" ];
+    destinataire [ shape = circle ];
+    expediteur -> envoi [ label = "SMTP" ];
+    envoi -> mx [ label = "SMTP" ];
+    mx -> stock [ label = "SMTP" ];
+    stock -> destinataire [ label = "IMAP" ];
+}

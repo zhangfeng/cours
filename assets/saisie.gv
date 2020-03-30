@@ -1,0 +1,9 @@
+digraph saisie {
+    utilisateur [ shape=diamond ];
+    clavier [ shape=rectangle ];
+    ordinateur [ shape=box ]
+    afficheur [ shape=square ]
+    utilisateur -> clavier;
+    clavier -> ordinateur;
+    ordinateur -> afficheur;
+}
