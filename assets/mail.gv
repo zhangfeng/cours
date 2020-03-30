@@ -1,11 +1,22 @@
 digraph mail {
+    // Attributs du graphe dlobal
     label = "Système de mail";
-    node [ shape = box ];
+    bgcolor = black;
+
+    // Attributs pour tous les noeuds
+    node [ shape = box, color = white, fontcolor = white ];
+
+    // Attributs pour tous les fils
+    edge [ color = white, fontcolor = white ];
+
+    // Déclaration des noeuds
     expediteur [ shape = circle ];
     envoi [ label = "Serveur d'envoi" ];
     mx [ label = "Serveur de répartition" ];
     stock [ label = "Hébergeur de boîtes" ];
     destinataire [ shape = circle ];
+
+    // Déclaration des fils
     expediteur -> envoi [ label = "SMTP" ];
     envoi -> mx [ label = "SMTP" ];
     mx -> stock [ label = "SMTP" ];

@@ -1,0 +1,28 @@
+digraph dns_request {
+    // Attributs globaux pour tout le graphe
+    label = "Requête DNS";
+    bgcolor = black;
+
+    // Attributs pour tous les noeuds
+    node [
+        color = white,
+        fontcolor = white
+    ];
+
+    // Attributs pour tous les fils
+    edge [
+        color = white,
+        fontcolor = white
+    ];
+
+    // Déclaration des noeuds
+    client [ shape = diamond ];
+    pdns [ label = "DNS primaire", shape = circle ];
+    mdns [ label = "DNS Master", shape = square ];
+
+    // Déclaration des fils
+    client -> pdns [ label = "Requête DNS" ];
+    pdns -> mdns [ label = "Interrogation master" ];
+    mdns -> pdns [ label = "Réponse Master" ];
+    pdns -> client [ label = "Réponse DNS" ];
+}
