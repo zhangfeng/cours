@@ -43,3 +43,9 @@ visibles. Pour avoir la description `graphviz`, cliquez sur l'image.
 [![Système de mail]({% link assets/mail.png %})]({% link assets/mail.gv %})
 
 [![Réseau domestique]({% link assets/reseau.png %})]({% link assets/reseau.gv %})
+
+Ces images sont générées par la ligne de commande suivante:
+
+```bash
+$ dot -Tpng <fichier> -o <sortie.png>
+```
