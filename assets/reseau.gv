@@ -4,16 +4,16 @@ graph {
     edge [color=yellow, fontcolor=white ] 
     label = "Réseau domestique";
     box [ label = "Box Internet", shape = diamond ];
-    boxtv [ label = "Boîtier TV", shape = square,  ];
-    tv [ label = "TV", shape = box ];
+    boxtv [ label = "Boîtier TV", shape = box ];
+    tv [ label = "TV", shape = square ];
     ordinateur [ shape = box ];
     imprimante [ shape = box ];
-    mobile [ shape = rectangle ];
-    tel [ label = "Téléphone fixe", shape = rectangle ];
+    mobile [ shape = box ];
+    tel [ label = "Téléphone fixe", shape = box ];
     ordinateur -- box [ label = "WIFI" ];
     mobile -- box [ label = "WIFI" ];
-    tel -- box [ label = "FIL" ];
-    boxtv -- box [ label = "FIL" ];
-    tv -- boxtv [ label = "FIL" ];
+    tel -- box [ label = "RJ45" ];
+    boxtv -- box [ label = "RJ45" ];
+    tv -- boxtv [ label = "HDMI" ];
     imprimante -- ordinateur [ label = "USB" ];
 }
