@@ -9,7 +9,7 @@ graph {
     ordinateur [ shape = box ];
     imprimante [ shape = box ];
     mobile [ shape = rectangle ];
-    tel [ label = "Tblbphone fixe", shape = rectangle ];
+    tel [ label = "Téléphone fixe", shape = rectangle ];
     ordinateur -- box [ label = "WIFI" ];
     mobile -- box [ label = "WIFI" ];
     tel -- box [ label = "FIL" ];
