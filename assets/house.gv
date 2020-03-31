@@ -1,0 +1,31 @@
+graph house {
+    bgcolor = black;
+    edge [ color = white, fontcolor = white ];
+    node [ color = white, fontcolor = white ];
+    { rank = "same";
+      hall [ label = "eftrée", shape = square ];
+      couloir [ shape = rectangle ];
+      chambre2 [ shape = box, label = "Chambre enfant" ];
+      living [ shape = box, label = "Salle à manger" ];
+    };
+    label = "Ma maison idéale";
+
+    entrance [ label = "Porte d'entrée", shape = diamond ];
+    cuisine [ shape = box, label = "Cuisine" ];
+    chambre1 [ label = "Chambre parent", shape = box ];
+    chambre3 [ label = "Chambre invité", shape = box ];
+    bain [ label = "Salle de bains", shape = box ];
+    bureau [ shape = box ];
+    balcon [ shape = rectangle ];
+    entrance -- hall;
+    hall -- cuisine [ label = "Porte" ];
+    hall -- living [ label = "Porte" ];
+    cuisine -- balcon [ label = "porte" ];
+    balcon -- living [ label = "Porte vitre" ];
+    hall -- couloir;
+    couloir -- bureau [ label = "Porte" ];
+    couloir -- chambre1 [ label = "Porte" ];
+    couloir -- chambre2 [ label = "Porte" ];
+    couloir -- chambre3 [ label = "Porte" ];
+    couloir -- bain [ label = "Porte" ];
+}
