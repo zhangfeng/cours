@@ -1,7 +1,10 @@
 graph {
+    bgcolor=black;
+    node [color=white, fontcolor=white ] 
+    edge [color=yellow, fontcolor=white ] 
     label = "Réseau domestique";
     box [ label = "Box Internet", shape = diamond ];
-    boxtv [ label = "Boîtier TV", shape = square ];
+    boxtv [ label = "Boîtier TV", shape = square,  ];
     tv [ label = "TV", shape = box ];
     ordinateur [ shape = box ];
     imprimante [ shape = box ];
