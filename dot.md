@@ -30,7 +30,7 @@ Si l'on analyse un schéma, il est composé de 4 types d'informations:
 - des étiquettes: textes courts permettant de nommer les entités et/ou les
   relations
 - des informations visuelles: des éléments permettant de suggérer des
-  différences eftre les entités et/ou les relations; exemples d'information
+  différences entre les entités et/ou les relations; exemples d'information
   visuelle: la couleur des entités, la forme des entités, le style des
   relations.
 
@@ -44,19 +44,19 @@ cités dans le paragraphe précédent.
 
 Voici un résumé non exhaustif de ce langage simple:
 
-- les entités sont représentés par dis noms que le créateur du fichier va
+- les entités sont représentés par des noms que le créateur du fichier va
   fixer
 - les relations sont représentées de deux manières:
   - entite1 `--` entite2: une relation simple, matérialisée par
     une ligne
-  - entite1 -> entite2: relation orientée, matéralisée par une flèche dont
+  - entite1 -> entite2: relation orientée, matérialisée par une flèche dont
     la pointe est dirigée vers entite2
 - les étiquettes sont associées, via un système d'attributs, aux différents
-  éléments (entités ou relations);
+  éléments (entités ou relations)
 - les autres informations visuelles sont associées aux relations et entités
-  via le système d'attributs.
+  via le système d'attributs
 - les attributs se déclarent entre crochets (`[` et `]`) après les éléments
-  concernés sous la forme `attribut=valeur`
+  concernés sous la forme `attribut=valeur`.
 
 La ligne de commande permettant de générer une image à partir du fichier
 contenant le langage est
@@ -68,7 +68,7 @@ contenant le langage est
 Dans la ligne de commande modèle,:
 
 - `fichier.gv` contient le langage de description de schéma (le `DOT`)
-- `-Tpng` indique la génération d'une image au format `PNG` (les peuvenct
+- `-Tpng` indique la génération d'une image au format `PNG` (les formats peuvent
   être aussi `-Tjpg` pour du `JPEG` ou encore `-Tpdf` pour du `PDF`)
 - `image.png` est le nom du fichier image généré.
 
@@ -92,8 +92,8 @@ s'install sans difficulté:
 
 Sous `Windows`, il faut réaliser 3 étapes:
 
-1. Télécharger l'anstallation de `graphviz` sur
-   https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.msi
+1. Télécharger l'installation de `graphviz` sur
+   [ce lien](https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.msi)
 2. Installer `graphviz` en notant bien le dossier dans lequel il sera
    installé
 3. Ajouter le sous-dossier `\bin` de l'installation dans la variable
@@ -105,11 +105,11 @@ Ici, vous trouverez des exemples de schémas que j'ai réalisés. Pour
 afficher le fichier source, il suffit de cliquer sur l'image
 correspondante.
 
-[![Circulation de l'information lors de la saisie]([% link assets/saisie.png %])]([% link assets/saisie.gv %])
+[![Circulation de l'information lors de la saisie]({% link assets/saisie.png %})]({% link assets/saisie.gv %})
 
-[![Circuit d'un mail]([% link assets/mail.png %])]([% link assets/mail.gv %])
+[![Circuit d'un mail]({% link assets/mail.png %})]({% link assets/mail.gv %})
 
-[![un réseau domestique]([% link assets/reseau.png %])]([% link assets/reseau.gv %])
+[![un réseau domestique]({% link assets/reseau.png %})]({% link assets/reseau.gv %})
 
 Remarques:
 
