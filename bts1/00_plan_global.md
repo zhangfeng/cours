@@ -24,9 +24,22 @@ Plan prévisionnel
 
 ### Gestion des utilisateurs
 
-### Gestion de pare-feu et notions de sécurité
+Représentation de schéma et collaboration
+-----------------------------------------
+
+Plannification de tâches (cron)
+-------------------------------
+
+Gestion de tâches sous Linux
+----------------------------
+
+Lecture de journaux
+-------------------
 
 ### Expressions rationnelles
+
+Sécurité de base
+----------------
 
 Infrastructure mail
 -------------------

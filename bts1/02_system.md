@@ -173,7 +173,3 @@ Mises en pratique:
    9. Ajoutez le compte `user2` dans le groupe `tourisc`
    10. Vérifiez que les 2 utilisateurs soient bien dans le groupe `tourist`
 4. Changez le login de `user1` en `adoy`
-
-## Gestion de pare-feu et notions de sécurité
-
-## Expressions rationnelles
