@@ -55,15 +55,32 @@ concepts:
     $ ps a
     ```
 
-    Affiche tous les processusses de l'utilisateur.
+    Affiche tous les processuses de l'utilisateur.
+
+  3. Exemple de ligne fréquente:
+    
+    ```bash
+    $ ps auxw | less
+    ```
+
+    Affiche page par page les processuses de tout le monde.
 
 3. Le processus du Shell
 
   Dans un terminal, taper:
+
   ```bash
   $ echo $$
   ```
 
   Le résultat est le numéro de processus du Shell en cours
 
+  1. Explorer le dossier `/proc/<PID>`, `<PID>` étant le résultat de la
+     commande précédente
+
+  2. Dans ce dossier, constater le résultat de la ligne de commande:
+
+    ```bash
+    $ ls -l exe
+    ```
 
