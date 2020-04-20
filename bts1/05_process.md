@@ -41,9 +41,9 @@ concepts:
 
 1. Exécuter et interpréter la sortie de la commande:
 
-  ```bash
+  ~~~bash
   $ pstree
-  ```
+  ~~~
 
 2. Explorer la commande ps:
 
@@ -51,17 +51,17 @@ concepts:
 
   2. Exécuter:
 
-    ```bash
+    ~~~bash
     $ ps a
-    ```
+    ~~~
 
     Affiche tous les processuses de l'utilisateur.
 
   3. Exemple de ligne fréquente:
     
-    ```bash
+    ~~~bash
     $ ps auxw | less
-    ```
+    ~~~
 
     Affiche page par page les processuses de tout le monde.
 
@@ -69,9 +69,9 @@ concepts:
 
   Dans un terminal, taper:
 
-  ```bash
+  ~~~bash
   $ echo $$
-  ```
+  ~~~
 
   Le résultat est le numéro de processus du Shell en cours
 
@@ -80,7 +80,7 @@ concepts:
 
   2. Dans ce dossier, constater le résultat de la ligne de commande:
 
-    ```bash
+    ~~~bash
     $ ls -l exe
-    ```
+    ~~~
 
