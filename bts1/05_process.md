@@ -47,23 +47,23 @@ concepts:
 
 2. Explorer la commande ps:
 
-  1. Exécuter `ps` sans argument
+   1. Exécuter `ps` sans argument
 
-  2. Exécuter:
+   2. Exécuter:
 
-     ```bash
-     $ ps a
-     ```
+      ```bash
+      $ ps a
+      ```
 
-     Affiche tous les processuses de l'utilisateur.
+      Affiche tous les processuses de l'utilisateur.
 
-  3. Exemple de ligne fréquente:
+   3. Exemple de ligne fréquente:
     
-     ```bash
-     $ ps auxw | less
-     ```
+      ```bash
+      $ ps auxw | less
+      ```
 
-     Affiche page par page les processuses de tout le monde.
+      Affiche page par page les processuses de tout le monde.
 
 3. Le processus du Shell
 
