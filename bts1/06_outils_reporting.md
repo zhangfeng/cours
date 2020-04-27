@@ -24,8 +24,12 @@ rapports lisibles.
 Rapport: assemblage d'informations permettant de répondre à une question ou
 une problématique.
 
-Le secret de l'administrateur: maîtriser les outils adaptés pour extraire
-les informations et les présenter de manière lisible.
+Les armes de l'administrateur:
+
+- la maîtrise des outils de lecture et d'extraction de texte,
+- la compréhension des informations concernées,
+- son expérience,
+- la capacité de déduction.
 
 ## Outils mis à disposition
 
