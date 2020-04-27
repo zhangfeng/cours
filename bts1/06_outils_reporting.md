@@ -39,7 +39,7 @@ Les plus simples, affichage pur:
 - less
 - compresseurs (gzip, bzip2...)
 
-Un peut plus avancés, permettent de découpé l'information:
+Un peu plus avancés, permettent de découpé l'information:
 
 - head
 - tail
