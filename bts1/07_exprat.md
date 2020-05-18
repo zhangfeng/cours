@@ -6,7 +6,7 @@ layout: folder
 ## Concepts
 
 Les expressions rationnelles ou régulières permettenet de reconnaître des
-mots ou textes qui rescpetent un motif.
+mots ou textes qui respectent un motif.
 
 Un motif est un ensemble de caractères définissant à quoi ressemblent les
 textes souhaités.
@@ -17,7 +17,7 @@ Un atome est un motif non décomposable.
 
 Dans le domaine des expressions rationnelles, les atomes sont:
 - les caractères imprimables exceptés `+`, `?`, `*`, `|`, `[`, `]`,
-  `{`, `}`, `(`, `)`
+  `{`, `}`, `(`, `)`, et ` `
 - tout motif entouré de `(` et `)`
 - une suite de caractères entourés de `[` et `]`
 
@@ -50,7 +50,7 @@ s'appuient beaucoup sur les expressions rationnelles.
    Chercher une ligne de commande permettant d'afficher tout les événements
    de 11:00 à 11:59
 
-3. Le début de ligne
+3. Le début et fin de ligne
 
    Parmi les caractères séciaux, nous avons `^` qui permet de représenter
    le début de ligne s'il est au début de l'eyperssion et `$` représente la
