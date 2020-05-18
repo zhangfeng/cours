@@ -1,5 +1,5 @@
 ---
-title: Exrepssions rationnelles ou régulières
+title: Expressions rationnelles ou régulières
 layout: folder
 ---
 
