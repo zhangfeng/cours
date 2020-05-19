@@ -21,6 +21,19 @@ Dans le domaine des expressions rationnelles, les atomes sont:
 - tout motif entouré de `(` et `)`
 - une suite de caractères entourés de `[` et `]`
 
+Dans une expression rationnelle, tout atome peut être "quantifié" ce qui
+signifie que, dans les mots reconnus, l'atome peut apparaître un certain
+nombre fois selon le quantifieur. Les quantifieurs possibles sont:
+
+- `?` l'atome précédent peut apparaître 0 ou 1 fois dans les mots reconnus
+- `+` l'atome précédent doit apparaître au minimum une fois (pas de
+  maximum)
+- `*` l'atome précédent peut apparaître 0, 1 ou plusieurs fois.
+- `{n,m}` l'atome précédent doit apparaître au moins `n` fois et au maximum  `m` fois. `n` et `m` sont facultatif et, s'ils sont omis sont remplacé par:
+
+  - `n` par 0
+  - `m` par l'infini
+
 L'ensemble de mots reconnus par une expression rationnelle est son langage.
 
 ## Première mise en pratique
@@ -67,3 +80,25 @@ s'appuient beaucoup sur les expressions rationnelles.
    ```bash
    # egrep 'sh$' /etc/passwd
    ```
+
+4. Les classes de caractères
+
+   Exécuter:
+
+   ```bash
+   # egrep '1[123]:..:' /var/log/syslog
+   ```
+
+   Ici, à l'intérieur des `[` et `]`, les caractères consécuvifs peuvent
+   exprimés sous la forme `[1-9]`.
+
+   En vous inspirant de l'exemple précédent, faire afficher les lignes du
+   `syslog` qui correspondent de 10:00 à 14:59
+
+5. En utilisant `awk`, faites afficher le nom des processus qui ont généré
+   des événements entre 11:00 et 12:59 ainsi que l'horaire des événements.
+
+## Références
+
+Lire les `man` de `grep et `awk`, en particulier les sections décrivant les
+expressions rationnelles (Regular Expressions)
