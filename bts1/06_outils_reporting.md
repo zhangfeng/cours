@@ -6,8 +6,8 @@ layout: folder
 ## Concepts
 
 Les services s'appuient sur des programmes qui tournent en permanence.
-Comme ces programmes s'exécute en arrière-plan, ils ne sont donc rattachés
-à aucun affichage. Pour répondre à cette problématique, toutes
+Comme ces programmes s'exécutent en arrière-plan, ils ne sont donc rattachés
+à aucun affichage. Pour répondre à cette problématique, toute
 communication d'information de ces programmes passe par des fichiers de
 trace: journaux (logs dans le jargon).
 
@@ -35,24 +35,24 @@ Les armes de l'administrateur:
 
 Les plus simples, affichage pur:
 
-- cat
-- less
-- compresseurs (gzip, bzip2...)
+- `cat`
+- `less`
+- compresseurs (`gzip`, `bzip2`...)
 
 Un peu plus avancés, permettent de découpé l'information:
 
-- head
-- tail
-- cut
-- sort
-- grep
+- `head`
+- `tail`
+- `cut`
+- `sort`
+- `grep`
 
-Avancés, ces outils su suffisent à eux-mêmes:
+Avancés, ces outils se suffisent à eux-mêmes:
 
-- sed
-- awk
-- perl
-- python
+- `sed`
+- `awk`
+- `perl`
+- `python`
 
 ## Pratique
 
