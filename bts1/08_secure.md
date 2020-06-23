@@ -122,5 +122,5 @@ poste de travail. Pour commodité, nous appellerons le server `srv`.
 
    Refaites la commande de 2. en remplaçant `-j REJECT` par `-j DROP`
 
-6. Refaites la commade de 1. et observez la différence
+6. Refaites la commande de 1. et observez la différence
 
