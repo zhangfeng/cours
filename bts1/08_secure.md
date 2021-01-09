@@ -27,11 +27,11 @@ relecture.
 ## Les différents domaines de base de la sécurité
 
 La sécurité numérique inclus plusieurs domaines pour les mêmes objectifs: s'assurer
-de l'autenticité des données et la protection contre la reproduction et la
+de l'authenticité des données et la protection contre la reproduction et la
 falsification.
 
 Généralement, on inclut les domaines suivants:
-- l'autentification: les actions et ressources permettant d'être sûr que
+- l'authentification: les actions et ressources permettant d'être sûr que
   l'interlocuteur est celui qu'il prétend,
 - la cryptologie: l'étude du chiffrement des données
 - la gestion des accès: les différents dispositifs permettant d'exposer les
