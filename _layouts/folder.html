@@ -12,11 +12,12 @@
     {% if p.name == page.name -%}
     <li>{{ p.title }} (page actuelle)</li>
     {% else -%}
-	<li><a href="{{ p.url }}">{{ p.title }} ({{ p.dir }})</a></li>
+	<li><a href="{{ p.url }}">{{ p.title }}</a></li>
     {% endif -%}
     {% endfor -%}
     </ul></nav>
-	<h1>{{ page.title }} - {{ page.dir }}</h1>
+	<h1>{{ page.title }}</h1>
+	<p>Mis à jour {{ page.date }}
     <section>{{ content }}</section>
     <footer>{% include footer.html %}</footer>
   </body>
