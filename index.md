@@ -1,6 +1,6 @@
 ---
-title: première ébauche
-layout: default
+title: Projet apprentissage
+layout: page
 ---
 
 # Apprentissage et astuces
@@ -11,11 +11,11 @@ nouvelles et de mettre à l'épreuve notre capacité de déduction.
 Ici, je propose de la matière qui, je l'espère, vous aideront dans votre
 apprentissage.
 
-{% for c in site.collections | }sort: "label" -%}
-## Section: {{ c.label }}
+VOici les différents domainesd'apprentissage qui m'intéressent et où j'ai pu écrire quelques articles:
 
-{% for p in c.docs | sort: "name" %}
-- [{{ p.title }}]({{ p.url }})
+{% for c in site.collections | sort: "label" -%}
+{% if c.label != "posts"}
+{% assign index_page = c.docs | where: "layout", "collection_index" | first -%}
+- [{{c.label}}]({{index_page.url}})
+{% endfor %}
 
-{% endfor %}
-{% endfor %}

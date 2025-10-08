@@ -1,7 +1,7 @@
 ---
-title: Astuces sur les instruments de musique
-layout: folder
-permalink: /instruments/index
+title: Astuces sur les matériels de musique
+name: 00 Présentation
+layout: collection_index
 ---
 
 ## Objectif
