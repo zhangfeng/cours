@@ -12,7 +12,7 @@
     {% if p.name == page.name -%}
     <li>{{ p.title }} (page actuelle)</li>
     {% else -%}
-    <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+	<li><a href="{{ p.url }}">{{ p.title }} ({{ p.dir }})</a></li>
     {% endif -%}
     {% endfor -%}
     </ul></nav>
