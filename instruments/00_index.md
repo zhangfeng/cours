@@ -1,7 +1,7 @@
 ---
 title: Astuces sur les instruments de musique
 layout: folder
-permalink: /instruments
+permalink: /instruments/index
 ---
 
 ## Objectif
